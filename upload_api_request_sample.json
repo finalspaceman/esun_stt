@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "364203d3-35bf-4571-88af-5f4b33c843cc",
+		"name": "upload_api_request_sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/Users/ESB19590/Downloads/00004.wav"
+						},
+						{
+							"key": "client_id",
+							"value": "z+QKW7vrZ+qAJGWA35zpHHOtu0gjzl9reP6LXH+UEQnl46y0xvuQChXGzf+mBEDP",
+							"type": "text"
+						},
+						{
+							"key": "request_id",
+							"value": "ckn56cRs8f1KS12345",
+							"type": "text"
+						},
+						{
+							"key": "api_version",
+							"value": "v1.0.0",
+							"type": "text"
+						},
+						{
+							"key": "business_unit",
+							"value": "IF_C170",
+							"type": "text"
+						},
+						{
+							"key": "inputs",
+							"value": "{\"client_number\":\"0912345678\", \"agent_id\":\"esb11111\",\"agent_number\":\"0000\",\"dial_in_time\":1618821666.0,\"hang_up_time\":1618822222.0,\"call_duration\":600.0, \"priority\":1,\"File_name\":\"00004\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://crvmlaasu.esunbank.com.tw/if_stt/stt",
+					"protocol": "https",
+					"host": [
+						"crvmlaasu",
+						"esunbank",
+						"com",
+						"tw"
+					],
+					"path": [
+						"if_stt",
+						"stt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
